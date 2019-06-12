@@ -1,5 +1,8 @@
 function isLoggedIn (req, res) {
+    console.log(`after register: `, req.session.user );
+    
     console.log(req.route.path)
+    console.log(req.body)
     console.log(`hello`, req.originalUrl)
   
 
